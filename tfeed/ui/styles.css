@@ -1,0 +1,49 @@
+#app-grid {
+	layout: grid;
+	grid-size: 2;
+	grid-columns: 1fr 1.75fr;
+}
+#leftpane {
+	height: 100%;
+	background: $panel;
+	scrollbar-color: $primary;
+	scrollbar-size: 1 1;
+}
+#leftpane > Article {
+	height: auto;
+	padding-top: 1;
+	box-sizing: border-box;
+	border-bottom: hkey $primary-background-lighten-3;
+	margin-right: 1;
+	margin-left: 1;
+}
+ArticleView {
+	height: auto; /* this was commented out */
+	background: $panel;
+	padding: 0 1;
+}
+#rightpane {
+	height: 100%;
+	background: $panel;
+	scrollbar-color: $primary;
+	scrollbar-size: 1 1;
+}
+.text-disabled {
+	color: $text-disabled;
+}
+Article {
+	height: auto;
+	overflow: hidden hidden;
+}
+Article > Widget :hover {
+	background: $boost;
+}
+ArticleList > Article.--highlight {
+	color: orange 90%;
+}
+ArticleList:focus > Article.--highlight {
+	color: orange;
+}
+Article > Widget {
+	height: auto;
+}
