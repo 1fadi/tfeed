@@ -18,5 +18,8 @@ def get_entries(feed):
 
 
 def get_news_source(feed):
-    return feed["feed"]["title"]
+    try:
+        feed["feed"]["title"]
+    except KeyError:
+        return None
 
