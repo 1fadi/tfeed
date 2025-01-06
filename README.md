@@ -11,7 +11,7 @@ experience.
 ```python3 pip install -r requirements.txt```
 ## start the app
 ```python3 -m tfeed <RSS_URL>``` replace <RSS_URL> with a valid RSS url
-examples:
+#### examples:
 ```python3 -m tfeed https://billboard.com/feed```
 ```python3 -m tfeed https://lifehacker.com/index.xml```
 ```python3 -m tfeed https://rt.com/rss```
