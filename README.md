@@ -18,3 +18,6 @@ experience.
 
 ```python3 -m tfeed https://rt.com/rss```
 
+using shift + ? you can toggle the help section in the app.
+
+
